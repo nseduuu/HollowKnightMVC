@@ -1,0 +1,65 @@
+@model HollowKnightMVC.Models.MobsViewModel
+@{
+ViewBag.Title = "Edit";
+}
+<h2>Editar dados do Boss</h2>
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="form-horizontal">
+        <hr />
+        <div class="form-group">
+            @Html.LabelFor(model => model.Id, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-6">
+            @Html.EditorFor(model => model.Id, new { htmlAttributes = new { @class = "formcontrol",
+            @readonly = "readonly" } })
+        </div>
+    </div>
+    <div class="form-group">
+            <label class="control-label col-md-2">Nome:</label>
+            <div class="col-md-6">
+                 @Html.EditorFor(model => model.Nome, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-md-2">Pontos de vida:</label>
+            <div class="col-md-6">
+                 @Html.EditorFor(model => model.PontosVida, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-md-2">Força:</label>
+            <div class="col-md-6">
+                 @Html.EditorFor(model => model.Forca, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-md-2">Dificuldade:</label>            
+            <div class="col-md-6">
+                 @Html.EditorFor(model => model.Dificuldade, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-md-2">Lore:</label>
+            <div class="col-md-6">
+                 @Html.EditorFor(model => model.Lore, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-md-2">Categoria:</label>
+            <div class="col-md-6">
+                 @Html.DropDownListFor(model => model.Categoria, Html.GetEnumSelectList(typeof(HollowKnightMVC.Models.Enuns.CategoriaEnum)),
+                    "---Selecione---", new { @class = "form-control" })
+            </div>
+        </div>
+        <br>
+        <div class="form-group">
+        <div class="col-md-offset-2 col-md-6">
+                <input type="submit" value="Salvar alterações" class="btn btn-primary" />
+            </div>
+        </div>
+    </div>
+}
+<div>
+    @Html.ActionLink("Retornar", "Index")
+</div>
