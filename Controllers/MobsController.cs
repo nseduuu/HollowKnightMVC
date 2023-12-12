@@ -18,7 +18,7 @@ public class MobsController : Controller
     [HttpGet]
     public ActionResult Create()
     {
-        return View("Index");
+        return View("Create");
     }
 
     [HttpGet]
@@ -97,13 +97,10 @@ public class MobsController : Controller
 
             string serialized = await response.Content.ReadAsStringAsync();
 
-            if (response.StatusCode == System.Net.HttpStatusCode.OK)
-            {
-                TempData["Mensagem"] = string.Format("Boss {0} foi criado com sucesso!", m.Nome);
-                return RedirectToAction("Index", "Mobs");
-            }
-            else
-                throw new System.Exception(serialized);
+
+            TempData["Mensagem"] = string.Format("Boss {0} foi criado com sucesso!", m.Nome);
+            return RedirectToAction("Index", "Mobs");
+
         }
         catch (System.Exception ex)
         {

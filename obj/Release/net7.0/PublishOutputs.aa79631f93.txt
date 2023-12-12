@@ -1,0 +1,11 @@
+D:\edu2ds\HollowKnightMVC\publish\HollowKnightMVC.exe
+D:\edu2ds\HollowKnightMVC\publish\appsettings.Development.json
+D:\edu2ds\HollowKnightMVC\publish\appsettings.json
+D:\edu2ds\HollowKnightMVC\publish\HollowKnightMVC.dll
+D:\edu2ds\HollowKnightMVC\publish\HollowKnightMVC.deps.json
+D:\edu2ds\HollowKnightMVC\publish\HollowKnightMVC.runtimeconfig.json
+D:\edu2ds\HollowKnightMVC\publish\HollowKnightMVC.pdb
+D:\edu2ds\HollowKnightMVC\publish\Microsoft.AspNetCore.JsonPatch.dll
+D:\edu2ds\HollowKnightMVC\publish\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\edu2ds\HollowKnightMVC\publish\Newtonsoft.Json.dll
+D:\edu2ds\HollowKnightMVC\publish\Newtonsoft.Json.Bson.dll
