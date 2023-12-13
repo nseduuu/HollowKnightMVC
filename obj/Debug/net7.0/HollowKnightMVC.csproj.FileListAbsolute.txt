@@ -34,8 +34,3 @@ D:\edu2ds\HollowKnightMVC\obj\Debug\net7.0\refint\HollowKnightMVC.dll
 D:\edu2ds\HollowKnightMVC\obj\Debug\net7.0\HollowKnightMVC.pdb
 D:\edu2ds\HollowKnightMVC\obj\Debug\net7.0\HollowKnightMVC.genruntimeconfig.cache
 D:\edu2ds\HollowKnightMVC\obj\Debug\net7.0\ref\HollowKnightMVC.dll
-D:\edu2ds\HollowKnightMVC\bin\Debug\net7.0\publish\web.config
-D:\edu2ds\HollowKnightMVC\bin\Debug\net7.0\publish\appsettings.Development.json
-D:\edu2ds\HollowKnightMVC\bin\Debug\net7.0\publish\appsettings.json
-D:\edu2ds\HollowKnightMVC\bin\Debug\net7.0\publish\HollowKnightMVC.deps.json
-D:\edu2ds\HollowKnightMVC\bin\Debug\net7.0\publish\HollowKnightMVC.runtimeconfig.json

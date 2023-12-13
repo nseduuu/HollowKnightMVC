@@ -13,7 +13,7 @@ namespace HollowKnightMVC.Controllers;
 
 public class MobsController : Controller
 {
-    public string uriBase = "http://nseduuu.somee.com/HollowKnightAPI/Mobs/";
+    public string uriBase = "http://nseduardo.somee.com/HollowKnightAPI/Mobs/";
 
     [HttpGet]
     public ActionResult Create()
